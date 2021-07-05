@@ -11,4 +11,4 @@ def printSubsequence(input, output):
         return
     printSubsequence(input[1:], output + input[0])
     printSubsequence(input[1:], output)
-printSubsequence("goldie", "")
+printSubsequence("changing goldie to chava", "")
